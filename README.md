@@ -48,4 +48,58 @@ int main() {
     return 0;
 }
 output : '\\'
-Q9 
+Q9 WAP to print “\\” on the screen.
+int main() {
+    printf("\\\\");
+    return 0;
+}
+output : '\\\\'
+Q10 WAP to take date as an input in below given format and convert the date format and
+display the result as given below.
+User Input date format – “DD/MM/YYYY” (27/11/2022)
+Output format –
+“Day – DD , Month – MM , Year – YYYY” (Day – 27 ,Month – 07 , Year – 2022)
+int main() {
+    int day, month, year;
+     // Prompting the user to input the date in "DD/MM/YYYY" format
+    printf("Enter the date in format DD/MM/YYYY: ");
+    scanf("%d/%d/%d", &day, &month, &year);
+
+    // Displaying the date in the desired output format
+    printf("Day – %02d, Month – %02d, Year – %d\n", day, month, year);
+
+    return 0;
+}
+ouput ; Day – 27 , Month – 07 , Year – 2022
+Q11 WAP to take time as an input in below given format and convert the time format and
+display the result as given below.
+User Input date format – “HH:MM”
+Output format – “HH hour and MM Minute”
+Example –
+“11:25” converted to “11 Hour and 25 Minute”
+12. Find output of below code:
+int main()
+{
+int x = printf(“ineuron”);
+printf(“%d”,x);
+1. Program to Convert Time Format:
+int main() {
+    int hour, minute;
+    // Taking time input in HH:MM format
+    printf("Enter the time in HH:MM format: ");
+    scanf("%d:%d", &hour, &minute);
+    // Printing the time in the desired format
+    printf("%02d Hour and %02d Minute\n", hour, minute);
+    return 0;
+}
+output ; 11 Hour and 25 Minute
+2. Output of the Given Code:
+int main() 
+{
+    int x = printf("ineuron");
+    printf("%d", x);
+    return 0;
+}
+output ; ineuron7
+
+
