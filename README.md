@@ -31,3 +31,21 @@ length_of_string = len(input_string)
 print("The length of the string is %d" % length_of_string)
 output : The length of the string is 5
 Q6 WAP to print the name of the user in double quotes.
+Expected output format – “Hello , Amit Kumar”
+# Define the user's name
+user_name = "Amit Kumar"
+# Print the greeting with the user's name in double quotes
+print(f'\"Hello , {user_name}\"')
+Q7 WAP to print “%d” on the screen.
+int main() {
+    std::cout << "%d" << std::endl;  // Print "%d" followed by a newline
+    return 0;
+}
+Output ; '%d'
+Q8 WAP to print “\n” on the screen.
+int main() {
+    std::cout << "\\n" << std::endl;  // Use \\ to escape the backslash and print "\n"
+    return 0;
+}
+output : '\\'
+Q9 
