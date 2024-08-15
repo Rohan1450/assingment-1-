@@ -1,4 +1,4 @@
-# assingment-1-
+
 # assingment-1
 Q1 Write a program to print Hello Students on the screen.
 print("Hello Students")
